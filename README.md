@@ -23,6 +23,16 @@ Web App με Server/Client Side για ολική διαχείριση, έξυπ
 ![Screenshot_2](https://user-images.githubusercontent.com/69312093/133070378-ded833ef-3453-4bae-803d-96486fe5d4cf.jpg)
 
 **Τα ραντεβού του χρήστη**
-
 ![Screenshot_1](https://user-images.githubusercontent.com/69312093/133070560-f6c4d1cc-edc5-4382-bc93-a74c14f98035.jpg)
+
+**Αποτελέσματα Αναζήτησης για Groomer**
+![Screenshot_2](https://user-images.githubusercontent.com/69312093/133070822-d4595675-ba29-4f8d-852a-33078d2f114c.jpg)
+
+![Screenshot_3](https://user-images.githubusercontent.com/69312093/133070825-2d09469b-ec68-4a9c-9800-949f85577e1d.jpg)
+
+**Επιλογή Groomer**
+![Screenshot_3](https://user-images.githubusercontent.com/69312093/133070981-ec10c3eb-0c58-4d8d-be09-416040038912.jpg)
+
+![Screenshot_4](https://user-images.githubusercontent.com/69312093/133070991-95d232d7-d133-4729-bae0-330e61042d4e.jpg)
+
 
