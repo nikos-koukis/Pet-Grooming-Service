@@ -1,6 +1,12 @@
 # Pet-Grooming-Service
 Web App με Server/Client Side για ολική διαχείριση, έξυπνη αναζήτηση και Online κράτηση σε Pet Grooming Services.
 
+**Tools for Web Development**
+
+Back-End: PHP
+Database: MySQL
+Front-End: HTML,CSS,CSS3,Bootstrap,JavaScript,Jquery
+
 **Ακολουθούν screenshots από την εφαρμογή για τον Client**
 
 **Αρχική σελίδα**
