@@ -1,0 +1,148 @@
+
+body {
+    background: #E4E9F7 !important;
+}
+
+.main {
+    padding-left: 300px;
+}
+
+.main-header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 4px -1px rgb(0 0 0 / 15%);
+}
+
+.mobile-toggle {
+    display: none;
+}
+
+.main-title {
+    font-size: 1.5rem;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.container {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    overflow-y: scroll;
+    height: 82vh;
+}
+
+.appointment_header {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.appointment_header p {
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.groomer_appoint_history_table_empty{
+    text-align: center;
+    padding: 20px;
+}
+
+table{
+    margin-top: 50px;
+}
+
+#td{
+    vertical-align: middle;
+}
+
+tbody,thead, table{
+    text-align: center
+}
+
+.btn-outline-primary{
+    pointer-events: none;
+    width: 150px;
+}
+
+#btn_booked{
+    border-color: #838300;
+    color: #838300;
+}
+
+#btn_completed{
+    border-color: #00c300;
+    color: #00c300;
+}
+
+#btn_canceled{
+    border-color: #db0000;
+    color: #db0000;
+}
+
+#btn_info{
+    box-shadow: inset 0 0 0 #ddd !important;
+    background: none;
+    border-color: #000080;
+}
+
+/*Styling για το modal*/
+
+.modal-header{
+    text-align: center;
+}
+
+#calendar_icon{
+    font-size: 25px;
+}
+
+.icon_modal{
+    padding: 10px;
+}
+
+.modal-body p{
+    font-size: 25px;
+}
+
+#btn_decline, #btn_accept{
+    margin: 0;
+}
+
+@media only screen and (max-width: 1280px) {
+    .sidebar {
+        transition: transform 0.3s ease-in-out;
+        max-width: 100%;
+        z-index: 99;
+        transform: translateX(-100%);
+    }
+
+    .sidebar.active {
+        transform: translateX(0);
+    }
+
+    .main {
+        padding-left: 0;
+    }
+
+    .mobile-toggle,
+    .sidebar-close {
+        display: grid;
+        place-items: center;
+        font-size: 2rem;
+        margin-right: 30px;
+        cursor: pointer;
+    }
+
+    .sidebar-close {
+        position: absolute;
+        right: -15px;
+    }
+}

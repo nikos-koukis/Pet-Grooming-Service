@@ -1,0 +1,236 @@
+
+body {
+    background: #E4E9F7 !important;
+    overflow-y: hidden;
+}
+
+.main {
+    padding-left: 300px;
+}
+
+.main-header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 4px -1px rgb(0 0 0 / 15%);
+}
+
+.mobile-toggle {
+    display: none;
+}
+
+.main-title {
+    font-size: 1.5rem;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.container{
+    max-width: 98%;
+    margin-top: 5vh;
+    border: 1px solid #96aeff;
+    border-radius: 20px;
+    margin-bottom: 5%;
+}
+
+.container h6{
+    text-align: left;
+    margin-left:70px;
+    margin-top: -19px;
+    height: 20px;
+    font-size: 25px;
+}
+
+.container h6 span{
+    background-color: #E4E9F7;
+}
+
+
+.container_appointments {
+    padding: 40px;
+}
+
+
+#row{
+    padding: 40px;
+    margin: 20px;
+}
+
+.error_appointment {
+    color: red;
+    text-align: left;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    margin-bottom: -10px;
+}
+
+.modal_error {
+    color: red;
+    text-align: left;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 2% 0 5% 1%;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    margin-bottom: -10px;
+}
+
+button, input[type="date"],
+.form-control,
+.form-select,
+.btn-primary
+{
+    box-shadow: inset 0 0 0 #ddd !important;
+}
+
+#choose_date_for_appointment_btn{
+    margin: 0;
+    width: 100%;
+    background: #E4E9F7 !important;
+    border: 1px solid #11101d !important;
+    color: #11101d !important;
+}
+
+#clear_data{
+    margin: 0;
+    width: 100%;
+    background: #E4E9F7 !important;
+    border: 1px solid #11101d !important;
+    color: #11101d !important;
+}
+
+
+.store_situation_settings{
+    margin: 0;
+    width: 100%;
+    background: #E4E9F7 !important;
+    border: 1px solid #11101d !important;
+    color: #11101d !important;
+}
+
+
+#choose_date_for_appointment_btn:hover{
+    background: #11101d !important;
+    border-color: #11101d !important;
+    color: #fff !important;
+}
+
+#clear_data:hover{
+    background: #11101d !important;
+    border-color: #11101d !important;
+    color: #fff !important;
+}
+
+
+.store_situation_settings:hover{
+    background: #11101d !important;
+    border-color: #11101d !important;
+    color: #fff !important;
+}
+
+.appointment_button{
+    margin: 10px;
+    width: 100%;
+    background: #E4E9F7 !important;
+    border: 1px solid #11101d !important;
+    color: #11101d !important;
+}
+
+.appointment_button:hover{
+    background: #11101d !important;
+    border-color: #11101d !important;
+    color: #fff !important;
+}
+
+#store_situation{
+    margin-top: 5%;
+}
+
+
+#buttons_available_appointments{
+    height: 43vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+/* Style Modal */
+#btn_modal_close, #btn_modal_save{
+    margin: 2%;
+    width: 100%;
+}
+
+#btn_modal_close{
+    background: #bc0000 !important;
+    border: 1px solid #bc0000 !important;
+    color: #ffffff !important;
+}
+
+#btn_modal_close:hover{
+    background: #860000 !important;
+    border: 1px solid #860000 !important;
+    color: #ffffff !important;
+}
+
+#btn_modal_save{
+    background: green !important;
+    border: 1px solid green !important;
+    color: #ffffff !important;
+}
+
+#btn_modal_save:hover{
+    background: #005619 !important;
+    border: 1px solid #005619 !important;
+    color: #ffffff !important;
+}
+
+.modal-body input{
+    margin: 2% 0 2% 0;
+}
+
+button.close{
+    border: none;
+    background: none;
+}
+
+i.bx-message-square-x{
+    font-size: 150%;
+}
+
+
+@media only screen and (max-width: 1280px) {
+    .sidebar {
+        transition: transform 0.3s ease-in-out;
+        max-width: 100%;
+        z-index: 99;
+        transform: translateX(-100%);
+    }
+
+    .sidebar.active {
+        transform: translateX(0);
+    }
+
+    .main {
+        padding-left: 0;
+    }
+
+    .mobile-toggle,
+    .sidebar-close {
+        display: grid;
+        place-items: center;
+        font-size: 2rem;
+        margin-right: 30px;
+        cursor: pointer;
+    }
+
+    .sidebar-close {
+        position: absolute;
+        right: -15px;
+    }
+}

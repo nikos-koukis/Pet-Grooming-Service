@@ -1,0 +1,158 @@
+body {
+    background: #f1f1f1;
+    font-family: 'Open Sans';
+}
+
+.container{
+    margin-top: 12%;
+}
+
+.form-select:focus,
+#btn_search,
+#btn_user_appointment_modal,
+#btn_schedule_appointment{
+    box-shadow: inset 0 0 0 0 #ddd;
+}
+.bx{
+    font-size: 26px;
+}
+
+.bx-envelope{
+    vertical-align: middle;
+    color: #4B9797;
+}
+
+.bxs-city{
+    vertical-align: middle;
+    color: #707000;
+}
+
+.bxs-map{
+    vertical-align: middle;
+    color: #E24A3B;
+}
+
+.bxs-phone{
+    vertical-align: middle;
+    color: #6d6dff;
+}
+
+#btn_search{
+    width: 100%;
+    border-color: #4ecdc4;
+    background: #4ecdc4;
+}
+
+#btn_search:hover{
+    border-color: #3ea59e;
+    background: #3ea59e;
+}
+
+.available_groomer{
+    margin-top: 3%;
+}
+
+.wrapper {
+    float:left;
+    width:50%;
+    padding: 10px;
+}
+
+.card-header, .card-footer{
+    background: #d0fff6;
+}
+
+#card_groomer_company{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+#btn_schedule_appointment{
+    width: 50%;
+    border-color: #4ecdc4;
+    background: #4ecdc4;
+}
+
+#btn_schedule_appointment:hover{
+    border-color: #3ea59e;
+    background: #3ea59e;
+}
+
+.error_form{
+    color:red;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.bx-x , .status_closed{
+    color:red;
+}
+
+.bx-check , .status_open{
+    color: green;
+}
+
+.bx-check{
+    position: relative;
+    top: 2px;
+}
+
+.bx-x{
+    position: relative;
+    top: 4px;
+}
+
+.swal2-styled.swal2-confirm, .swal2-styled.swal2-cancel {
+    box-shadow: inset 0 0 0 #ddd !important;
+}
+
+/*Styling για το modal που πετάγεται στον χρήστη για υπενθύμιση του ραντεβού του*/
+#user_appointment_modal{
+    z-index: 100001;
+}
+
+#btn_user_appointment_modal{
+    width: 100%;
+    border-color: #4ecdc4;
+    background: #4ecdc4;
+}
+
+#btn_user_appointment_modal:hover{
+    border-color: #39968f;
+    background: #39968f;
+}
+
+@media (max-width: 868px) {
+    .wrapper{
+        width: 100%;
+    }
+
+    .container{
+        margin-top: 40%;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 480px){
+    .container{
+        margin-top: 30%;
+    }
+    #row{
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container{
+        margin-top: 50%;
+    }
+    #row{
+        padding: 10px;
+    }
+}
+
+

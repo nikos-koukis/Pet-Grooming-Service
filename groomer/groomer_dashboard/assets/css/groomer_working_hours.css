@@ -1,0 +1,255 @@
+
+body {
+    background: #E4E9F7 !important;
+}
+
+#row, #store_situation{
+    padding: 40px;
+    margin: 20px;
+}
+
+
+.main {
+    padding-left: 300px;
+}
+
+.main-header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 4px -1px rgb(0 0 0 / 15%);
+}
+
+.mobile-toggle {
+    display: none;
+}
+
+.main-title {
+    font-size: 1.5rem;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+
+.container{
+    max-width: 98%;
+    margin-top: 5vh;
+    border: 1px solid #96aeff;
+    border-radius: 20px;
+    margin-bottom: 5%;
+}
+
+.container h6{
+    text-align: left;
+    margin-left:70px;
+    margin-top: -19px;
+    height: 20px;
+    font-size: 25px;
+}
+
+.container h6 span{
+    background-color: #E4E9F7;
+}
+
+
+.container_hours {
+    padding: 40px;
+}
+
+
+.container_days{
+    max-width: 98%;
+    border: 1px solid #4f5c7c;
+    border-radius: 20px;
+    margin-top: 5%;
+}
+
+.container_days h6{
+    text-align: left;
+    margin-left:70px;
+    margin-top: -15px;
+    height: 20px;
+    font-size: 20px;
+}
+
+.container_days h6 span{
+    background-color: #E4E9F7;
+}
+
+.row h5{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+button, input[type="text"],
+.form-control,
+.form-select,
+input[type=radio]:focus{
+    box-shadow: inset 0 0 0 #ddd !important;
+}
+
+.btn-outline-info{
+    margin: 50px 0 0 0;
+    width: 100%;
+    background: #17a2b8;
+    color: white;
+}
+
+.btn-outline-info:hover{
+    background: #13798c;
+    color: white;
+}
+
+.btn-outline-info:disabled,
+.btn-outline-info[disabled]{
+    background: #17a2b8;
+    color: white;
+}
+
+.error_open_hour {
+    color: red;
+    text-align: left;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    margin-bottom: -10px;
+}
+
+.extra_vardia{
+    margin: 0;
+    pointer-events: none;
+}
+
+.extra_vardia i{
+    pointer-events: all;
+    margin-left: 97%;
+}
+
+.extra_vardia i:hover{
+    color: black;
+}
+
+
+@keyframes loadAnim {
+    0%   {
+        opacity:1;
+    }
+    50%  {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+/*
+##Device = Tablets, Ipads (portrait)
+##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    #btn_extra_vardia{
+        margin: 0;
+    }
+    #btn_extra_vardia i{
+        pointer-events: all;
+        margin-left: 94%;
+    }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    #btn_extra_vardia{
+        margin: 0;
+    }
+    #btn_extra_vardia i{
+        pointer-events: all;
+        margin-left: 94%;
+    }
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    #btn_extra_vardia {
+        margin: 0;
+    }
+
+    #btn_extra_vardia i {
+        pointer-events: all;
+        margin-left: 84%;
+    }
+
+    .container_days {
+        margin-top: 20% !important;
+    }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    #btn_extra_vardia{
+        margin: 0;
+    }
+    #btn_extra_vardia i{
+        pointer-events: all;
+        margin-left: 87%;
+    }
+
+}
+
+
+@media only screen and (max-width: 1280px) {
+    .sidebar {
+        transition: transform 0.3s ease-in-out;
+        max-width: 100%;
+        z-index: 99;
+        transform: translateX(-100%);
+    }
+
+    .sidebar.active {
+        transform: translateX(0);
+    }
+
+    .main {
+        padding-left: 0;
+    }
+
+    .mobile-toggle,
+    .sidebar-close {
+        display: grid;
+        place-items: center;
+        font-size: 2rem;
+        margin-right: 30px;
+        cursor: pointer;
+    }
+
+    .sidebar-close {
+        position: absolute;
+        right: -15px;
+    }
+}

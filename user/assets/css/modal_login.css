@@ -1,0 +1,58 @@
+#modal_login{
+    z-index: 100001;
+}
+
+#icon_login{
+    font-size: 35px;
+    margin-top: 5px;
+}
+
+input[type=email]:focus,
+input[type=password]:focus,
+input[type=checkbox]:focus,
+.form-control:focus,
+.form-select:focus,
+#btn_user_login{
+    box-shadow: inset 0 0 0 0 #ddd;
+}
+
+#btn_user_login{
+    border-color: #4ecdc4;
+    background: #4ecdc4;
+}
+
+#btn_user_login:hover{
+    border-color: #3a9b93;
+    background: #3a9b93;
+}
+
+.required{
+    color:red;
+}
+
+#links{
+    margin-top: 6%;
+}
+
+.link_not_member, .forget_password{
+    display: inline-block;
+}
+
+.error_form{
+    color:red;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+#user_invalid_credits_error{
+    margin-top: 10px;
+    text-align: center;
+}
+
+span.input-group-text:hover {
+    cursor: pointer;
+}

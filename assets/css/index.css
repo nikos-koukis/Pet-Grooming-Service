@@ -1,0 +1,81 @@
+body {
+    background: #f1f1f1;
+    font-family: 'Open Sans';
+}
+
+.container{
+    margin-top: 15%;
+}
+
+.container_title h1{
+    text-align: center;
+}
+
+.container_search, .container_search_btn{
+    margin-top: 5%;
+}
+
+.container .form-select{
+    margin-top: 5%;
+}
+
+.form-control:focus,
+.form-select:focus,
+#btn_user_appointment_modal,
+#btn_search{
+    box-shadow: inset 0 0 0 0 #ddd;
+}
+
+#btn_search{
+    width: 100%;
+    border-color: #4ecdc4;
+    background: #4ecdc4;
+}
+
+#btn_search:hover{
+    border-color: #3ea59e;
+    background: #3ea59e;
+}
+
+.error_form{
+    color:red;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.swal2-styled.swal2-confirm, .swal2-styled.swal2-cancel {
+    box-shadow: inset 0 0 0 #ddd !important;
+}
+
+/*Styling για το modal που πετάγεται στον χρήστη για υπενθύμιση του ραντεβού του*/
+#user_appointment_modal{
+    z-index: 100001;
+}
+
+#btn_user_appointment_modal{
+    width: 100%;
+    border-color: #4ecdc4;
+    background: #4ecdc4;
+}
+
+#btn_user_appointment_modal:hover{
+    border-color: #39968f;
+    background: #39968f;
+}
+
+@media (max-width: 1200px) and (min-width: 480px){
+    .container{
+        margin-top: 30%;
+    }
+}
+
+@media (max-width: 480px) {
+    .container{
+        margin-top: 50%;
+    }
+}
+

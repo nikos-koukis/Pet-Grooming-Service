@@ -1,0 +1,256 @@
+
+/* ------------------------ CSS FOR NAVBAR -----------------------------  */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans";
+    background-color: #fafafb;
+    color: #455560;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+    display: inline-block;
+}
+
+.sidebar {
+    background: #76739e;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100vh;
+    box-shadow: 0 1px 4px -1px rgb(0 0 0 / 15%);
+    overflow-y: auto;
+}
+
+.sidebar-logo a{
+    height: 45px;
+    position: relative;
+    padding: 10px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar-logo .bxl-baidu{
+    font-size: 40px;
+    color: black;
+    margin-top: 50px;
+}
+
+.sidebar-logo p{
+    font-size: 20px;
+    color: black;
+    margin-top: 70px;
+}
+
+.sidebar.active .bxl-baidu{
+    position: absolute;
+    left: 25px;
+}
+
+.sidebar.active .sidebar-logo p{
+    position: absolute;
+    left: 70px;
+}
+
+
+.sidebar-close {
+    display: none;
+}
+
+.sidebar.active .sidebar-close{
+    color: black;
+    position: absolute;
+    top: 35px;
+}
+
+
+.sidebar .profile_content{
+    margin-top: 50px;
+    padding: 15px 10px 0 10px;
+    pointer-events: none;
+    text-align: center;
+    color: black;
+}
+
+.profile_details .name_groomer .name{
+    font-size: 20px;
+}
+
+.profile_details .name_groomer .groomer{
+    margin-top: 2%;
+    font-size: 18px;
+}
+
+#btn_logout {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    margin-left: 43%;
+}
+
+#btn_logout i {
+    font-size: 25px;
+    color: black;
+}
+
+#btn_logout :hover{
+    font-size: 25px;
+    color: white;
+}
+
+#btn_logout {
+    transition: background-color 0.2s ease-in-out;
+}
+
+#btn_logout{
+    box-shadow: inset 0 0 0 0 #ddd;
+}
+
+
+.sidebar-menu {
+    padding: 10px 0;
+    list-style-type: none;
+}
+
+#sidebar-menu{
+    margin-top: 20px;
+}
+
+.sidebar-menu > li {
+    padding: 15px 20px 0 20px;
+}
+
+.sidebar-menu-dropdown-content > li {
+    padding: 5px 20px 0 20px;
+}
+
+.sidebar-menu > li > a {
+    width: 100%;
+    padding: 15px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: color 0.2s ease-in-out;
+    border-radius: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar-menu > li > a.active {
+    background-color: rgb(0 0 0 / 20%);
+    color: white;
+}
+
+.sidebar-menu > li > a:hover {
+    color: black;
+}
+
+.sidebar-menu > li > a > i {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.sidebar-menu-dropdown {
+    position: relative;
+}
+
+.sidebar-menu-dropdown .dropdown-icon {
+    position: absolute;
+    right: 15px;
+}
+
+.dropdown-icon {
+    height: 15px;
+    width: 15px;
+    position: relative;
+    cursor: pointer;
+}
+
+.dropdown-icon::after,
+.dropdown-icon::before {
+    content: "";
+    width: 50%;
+    height: 2px;
+    border-radius: 2.5px;
+    position: absolute;
+    top: 50%;
+    background-color:  #455560;
+    transition: transform 0.3s ease;
+}
+
+.dropdown-icon::before {
+    left: calc(50% - 2px / 3);
+    transform-origin: center left;
+    transform: rotate(-45deg);
+}
+
+.dropdown-icon::after {
+    right: calc(50% - 2px / 3);
+    transform-origin: right;
+    transform: rotate(45deg);
+}
+
+.dropdown-icon.active::before {
+    transform: rotate(45deg);
+}
+
+.dropdown-icon.active::after {
+    transform: rotate(-45deg);
+}
+
+.sidebar-menu-dropdown-content {
+    padding: 0;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.25s ease-in-out;
+}
+
+.sidebar-menu-dropdown-content > li > a {
+    padding-left: 40px;
+}
+
+.swal2-styled.swal2-confirm, .swal2-styled.swal2-cancel {
+    box-shadow: inset 0 0 0 #ddd !important;
+}
+/*Κάνει το dropdown menu ανοιχτό*/
+ul#dropdown_menu.active {
+    height:auto;
+}
+
+@media only screen and (max-width: 1280px) {
+    .overlay {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        display: none;
+        z-index: 1;
+    }
+
+
+    .overlay.active {
+        display: block;
+        height: 100%;
+    }
+}
+

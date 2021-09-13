@@ -1,0 +1,64 @@
+body {
+    background: #f1f1f1;
+    font-family: 'Open Sans';
+}
+
+.container{
+    margin-top: 170px;
+    max-width: 90%;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    overflow-y: auto;
+    height: 70vh;
+ }
+
+.header {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.header p {
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.user_appoint_table_empty{
+    text-align: center;
+    padding: 20px;
+}
+.btn-outline-primary{
+    pointer-events: none;
+    width: 150px;
+}
+
+#btn_booked{
+    border-color: #838300;
+    color: #838300;
+}
+
+#btn_completed{
+    border-color: #00c300;
+    color: #00c300;
+}
+
+#btn_canceled{
+    border-color: #db0000;
+    color: #db0000;
+}
+
+tbody,thead, table{
+    text-align: center
+}
+
+table{
+    margin-top: 50px;
+}
+
+#td{
+    vertical-align: middle;
+}
