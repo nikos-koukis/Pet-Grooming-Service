@@ -31,10 +31,10 @@ Web App με Server/Client Side για ολική διαχείριση, έξυπ
 ![Screenshot_3](https://user-images.githubusercontent.com/69312093/133070825-2d09469b-ec68-4a9c-9800-949f85577e1d.jpg)
 
 **Επιλογή Groomer**
-![Screenshot_3](https://user-images.githubusercontent.com/69312093/133070981-ec10c3eb-0c58-4d8d-be09-416040038912.jpg)
+![Screenshot_4](https://user-images.githubusercontent.com/69312093/133071289-82d0085c-ce8d-4fd1-81b0-8b602dcdd0e6.jpg)
 
-![Screenshot_4](https://user-images.githubusercontent.com/69312093/133070991-95d232d7-d133-4729-bae0-330e61042d4e.jpg)
+![Screenshot_5](https://user-images.githubusercontent.com/69312093/133071299-27ab9e4d-bc28-4365-8474-0a6b78e73ac9.jpg)
 
-**Επιλογή Ώρας και αίτηση δημιουργίας ραντεβού**
-![Screenshot_4](https://user-images.githubusercontent.com/69312093/133071178-414dc3e6-ccbb-41da-b3c6-70ee7620c1bf.jpg)
+**Επιλογή ώρας και αίτημη δημιουργίας ραντεβού**
+![Screenshot_6](https://user-images.githubusercontent.com/69312093/133071378-86bb4424-d57d-4eee-b7c2-56fbfab13967.jpg)
 
