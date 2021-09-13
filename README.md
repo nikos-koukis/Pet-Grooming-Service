@@ -17,7 +17,9 @@
   <b>Front-End:</b> HTML,CSS,CSS3,Bootstrap,JavaScript,JQuery
 </p>
 
-**Ακολουθούν screenshots από την εφαρμογή για τον Client**
+<p align="center">
+  <b>Ακολουθούν screenshots από την εφαρμογή για τον Client</b>
+</p>
 
 **Αρχική σελίδα**
 ![index](https://user-images.githubusercontent.com/69312093/133068640-cfad5750-f03b-4d9a-95f0-4ab7e9803436.jpg)
@@ -54,3 +56,41 @@
 **Επιλογή ώρας και αίτημη δημιουργίας ραντεβού**
 ![Screenshot_6](https://user-images.githubusercontent.com/69312093/133071378-86bb4424-d57d-4eee-b7c2-56fbfab13967.jpg)
 
+<p align="center">
+  <b>Ακολουθούν screenshots από την εφαρμογή για τον Admin-Groomer(Server Side)</b>
+</p>
+
+**Login**
+![Screenshot_1](https://user-images.githubusercontent.com/69312093/133078986-0d225f00-1b2f-45bd-96c3-467541894ec0.jpg)
+
+![Screenshot_2](https://user-images.githubusercontent.com/69312093/133078993-7e77c209-845c-437d-b7aa-6599320cfb79.jpg)
+
+**Groomer Dashboard**
+![Screenshot_1](https://user-images.githubusercontent.com/69312093/133079154-7c75ea3b-f735-4799-b885-4e3cbd05d18e.jpg)
+
+![Screenshot_2](https://user-images.githubusercontent.com/69312093/133079328-7527af8d-a53f-4c1b-8ee6-e7b36334c6b4.jpg)
+
+![Screenshot_3](https://user-images.githubusercontent.com/69312093/133079337-b63e92ff-21ed-46ed-8d48-334fc0c2d8f8.jpg)
+
+**Groomer Profile**
+![Screenshot_1](https://user-images.githubusercontent.com/69312093/133079407-eef407e4-11fd-42cb-ba7b-14cc04989e12.jpg)
+
+![Screenshot_2](https://user-images.githubusercontent.com/69312093/133079446-6341a2cd-2a9e-4d8b-840b-d7d019dcf57c.jpg)
+
+**Groomer Appointment List In Progress**
+![Screenshot_1](https://user-images.githubusercontent.com/69312093/133079536-6a58535c-7688-4efc-b8c3-2c568c20d2d5.jpg)
+
+**Groomer Appointment History List**
+![Screenshot_2](https://user-images.githubusercontent.com/69312093/133079678-76322546-eb10-47bd-ac0a-86ee96cd7419.jpg)
+
+**Καταχώρηση Ωραρίου Λειτουργίας**
+![Screenshot_1](https://user-images.githubusercontent.com/69312093/133079794-6852cb33-1134-460b-bd74-25a81b51d12f.jpg)
+
+![Screenshot_2](https://user-images.githubusercontent.com/69312093/133079808-78325acc-4f18-4e3f-8976-011c3761b395.jpg)
+
+**Καταχώρηση Ραντεβού από τον Groomer**
+![Screenshot_1](https://user-images.githubusercontent.com/69312093/133079955-1e708d03-c8c0-44ca-81cd-a4bbfca669cc.jpg)
+
+![Screenshot_2](https://user-images.githubusercontent.com/69312093/133079963-6fc5e477-9e8f-4593-9adf-0fb653befb25.jpg)
+
+![Screenshot_3](https://user-images.githubusercontent.com/69312093/133079970-a057ffe1-eb70-4bcc-8d55-884283f22607.jpg)
