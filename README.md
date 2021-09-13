@@ -4,7 +4,9 @@ Web App με Server/Client Side για ολική διαχείριση, έξυπ
 **Tools for Web Development**
 
 Back-End: PHP
+
 Database: MySQL
+
 Front-End: HTML,CSS,CSS3,Bootstrap,JavaScript,Jquery
 
 **Ακολουθούν screenshots από την εφαρμογή για τον Client**
