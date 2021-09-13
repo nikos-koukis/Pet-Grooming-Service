@@ -1,3 +1,3 @@
 # Pet-Grooming-Service
 Web App με Server/Client Side για ολική διαχείριση, έξυπνη αναζήτηση και Online κράτηση σε Pet Grooming Services.
-![Alt text](assets/images/favicon.png?raw=true "Title" | width=100)
+![Alt text](assets/images/favicon.png = 100x100)
