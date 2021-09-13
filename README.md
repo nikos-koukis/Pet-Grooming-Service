@@ -7,7 +7,7 @@ Web App με Server/Client Side για ολική διαχείριση, έξυπ
 
 **Database:** MySQL
 
-**Front-End:** HTML,CSS,CSS3,Bootstrap,JavaScript,Jquery
+**Front-End:** HTML,CSS,CSS3,Bootstrap,JavaScript,JQuery
 
 **Ακολουθούν screenshots από την εφαρμογή για τον Client**
 
