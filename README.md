@@ -5,11 +5,17 @@
   <b>Tools for Web Development</b>
 </p>
 
-**Back-End:** PHP
+<p align="center">
+  <b>Back-End:</b> PHP
+</p>
 
-**Database:** MySQL
+<p align="center">
+  <b>Database:</b> MySQL
+</p>
 
-**Front-End:** HTML,CSS,CSS3,Bootstrap,JavaScript,JQuery
+<p align="center">
+  <b>Front-End:</b> HTML,CSS,CSS3,Bootstrap,JavaScript,JQuery
+</p>
 
 **Ακολουθούν screenshots από την εφαρμογή για τον Client**
 
