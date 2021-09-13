@@ -4,7 +4,7 @@ body {
 }
 
 .container{
-    margin-top: 12%;
+    margin-top: 200px;
 }
 
 .form-select:focus,
@@ -55,7 +55,11 @@ body {
 .wrapper {
     float:left;
     width:50%;
-    padding: 10px;
+    padding: 10px 10px 40px 10px;
+}
+
+.card{
+    box-shadow: 13px 4px 20px 0px #888888;
 }
 
 .card-header, .card-footer{
@@ -138,18 +142,12 @@ body {
 }
 
 @media (max-width: 1200px) and (min-width: 480px){
-    .container{
-        margin-top: 30%;
-    }
     #row{
         padding: 10px;
     }
 }
 
 @media (max-width: 480px) {
-    .container{
-        margin-top: 50%;
-    }
     #row{
         padding: 10px;
     }

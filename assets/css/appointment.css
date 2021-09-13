@@ -148,7 +148,7 @@ body {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
     margin-right: 5%;
     margin-left: 5%;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     text-align: -webkit-center;
 }
 
@@ -162,6 +162,7 @@ body {
 
 #buttons_available_appointments{
     text-align: center;
+    padding: 10px;
 }
 
 .appointment_button{

@@ -4,7 +4,7 @@ body {
 }
 
 .container{
-    margin-top: 15%;
+    margin-top: 200px;
 }
 
 .container_title h1{
@@ -67,15 +67,4 @@ body {
     background: #39968f;
 }
 
-@media (max-width: 1200px) and (min-width: 480px){
-    .container{
-        margin-top: 30%;
-    }
-}
-
-@media (max-width: 480px) {
-    .container{
-        margin-top: 50%;
-    }
-}
 

@@ -4,12 +4,12 @@ body {
 }
 
 .container{
-    margin-top: 10%;
+    margin-top: 200px;
+    max-width: 90%;
+
 }
 
 .container_info{
-    max-width: 100%;
-    margin-top: 35px;
     border-radius: 8px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
     background: white;
@@ -147,17 +147,10 @@ button, input[type="text"],
     background: #a22531;
 }
 
-@media (max-width: 1200px) and (min-width: 480px){
-    .container{
-        margin-top: 30%;
+@media (max-width: 768px){
+    .col-sm {
+        padding: 10px;
     }
 }
-
-@media (max-width: 480px) {
-    .container{
-        margin-top: 45%;
-    }
-}
-
 
 
